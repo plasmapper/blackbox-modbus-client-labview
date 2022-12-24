@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-04-04 20:08:36" Modified_Date="2022-12-08 02:47:53" Creator="Researcher" Comments="" ID="87559069a9eea46fa2dfb66b62cc1374">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-04-04 20:08:36" Modified_Date="2022-12-24 18:43:34" Creator="Researcher" Comments="" ID="fcc1763f8f4a99ece3598d05e8b69db6">
   <Library_General_Settings>
     <Package_File_Name>plasmapper_lib_PL_BlackBox_Modbus_Client</Package_File_Name>
-    <Library_Version>1.0.0.5</Library_Version>
+    <Library_Version>1.0.1.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\build</Library_Output_Folder>
@@ -38,7 +38,8 @@ Actual device class should inherit PL BlackBox Modbus Client.lvclass, override C
       <Copyright/>
       <Packager>plasmapper</Packager>
       <URL>https://github.com/plasmapper/blackbox-modbus-client-labview</URL>
-      <Release_Notes>Initial release.</Release_Notes>
+      <Release_Notes>Fixed
+- Reading Ethernet interface gateway IPv4 address.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -302,7 +303,7 @@ Actual device class should inherit PL BlackBox Modbus Client.lvclass, override C
         <Path>Public\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8CCFDC701DED8794AABD594ECE13F1E1</GUID>
+      <GUID>FA09EAB9CC82278DA15B2593C5E9C457</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -533,7 +534,7 @@ Actual device class should inherit PL BlackBox Modbus Client.lvclass, override C
         <Path>Public\Configure\Write Device Name.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2417DD3910288AA7BAEAFF02F2EB2D8D</GUID>
+      <GUID>E63F365A9F405D5D73F10982141BA44B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -652,7 +653,7 @@ Actual device class should inherit PL BlackBox Modbus Client.lvclass, override C
         <Path>Public\Utility\Clear Restarted Flag.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5E2AEF7723AB9A05A88C8784CD4F4487</GUID>
+      <GUID>A4014AD873F7B761334CF864F8F16E8D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
