@@ -17,4 +17,4 @@ Actual device class should inherit `PL BlackBox Modbus Client.lvclass`, optional
 ### BlackBox Configurator.vi
 Example VI that demonstrates all library features.
 
-### [BlackBox Firmware and Software Examples](https://github.com/plasmapper/blackbox/tree/main/examples)
+### [BlackBox Firmware and Software Examples](https://github.com/plasmapper/blackbox/tree/main/example)
